@@ -7,15 +7,17 @@ export default function Home() {
   const  filmes = [
 
     {
+      id: 1,
       titulo: "Star Wars",
       nota:  9.5,
-      poster: "https://www.themoviedb.org/t/p/w94_and_h141_bestv2/uLlrDUtFG2tKtDcJN6kBznlqqsp.jpg"
+      poster: "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uLlrDUtFG2tKtDcJN6kBznlqqsp.jpg"
     },
 
     {
+      id: 2,
       titulo: "Barbie",
       nota:  8.5,
-      poster: "https://www.themoviedb.org/t/p/w94_and_h141_bestv2/yRRuLt7sMBEQkHsd1S3KaaofZn7.jpg"
+      poster: "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/yRRuLt7sMBEQkHsd1S3KaaofZn7.jpg"
     }
   ] 
 
