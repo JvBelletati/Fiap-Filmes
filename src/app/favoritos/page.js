@@ -1,4 +1,5 @@
 import CardFilme from '@/components/CardFilme'
+import NavBar from '@/components/NavBar';
 import Titulo from '@/components/Titulo.jsx'
 
 async function carregarDados(){
@@ -23,10 +24,7 @@ export default async function Favoritos() {
 
   return ( //JSX
     <>
-      <nav className="flex items-end gap-4 bg-slate-900 p-4">
-        <h1 className="text-3xl font-bold">Fiap Filmes</h1>
-        <a href="/favoritos">Favoritos</a>
-      </nav>
+      <NavBar />
 
       <Titulo>Favoritos</Titulo>
 
